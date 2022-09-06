@@ -18,7 +18,7 @@ while not salario > 0 :
     salario = float(input("Salário inválido! \nQual o seu salário? "))
 
 sexo = input("Qual o seu sexo? ").upper()
-while sexo != 'M' and sexo != 'F':
+while  not sexo == 'M' or sexo == 'F':
     sexo = input("Sexo inválido! \nQual o seu sexo? ").upper()
 
 lista_est_civil = {'S', 'C', 'V', 'D'}
