@@ -2,8 +2,11 @@
 '''
 base = int(input("Digite o número da base"))
 expoente = int(input("Digite o número da expoente"))
-calculo = base ** expoente
-print(calculo)
+resultado = 1
+for i in range(expoente):
+    resultado *= base
+print(resultado)
+
 
 
 
