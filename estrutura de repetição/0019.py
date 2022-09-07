@@ -9,11 +9,15 @@ valor = input('''
             ''')
 n = []
 while not valor == -1:
+
     valor = int(input(" numero \n"))
     if  valor < 0 or valor > 1000:
+        
         print("valor não será computado")
     else:
         n.append(valor)
+
+
 
 print(f'''
         maior número                                : {max(n)}
